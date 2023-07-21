@@ -1,0 +1,150 @@
+/* src/UserProfileCard.css */
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to right ,red,blue);
+}
+
+.user-profile-card {
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 20px auto;
+    width: 600px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative; 
+    margin-top: 13%;
+    background-color: white;
+    
+  }
+  
+  .user-profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 40px;
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    border: 3px solid rgb(189, 189, 189); 
+  }
+  
+  .user-profile-card h2,
+  .user-profile-card h4,
+  .user-profile-card p {
+    margin: 10px 40px;
+  }
+  
+  .user-profile-card p {
+    font-size: 12px;
+    margin-left: 160px;
+    text-align: left;
+   
+  }
+  
+  .user-profile-card h2{
+    text-align: left;
+    margin-left: 160px;
+    margin-bottom: 1px;
+  }
+  
+  .user-profile-card h4{
+    text-align: left;
+    margin-left: 160px;
+    margin-top: 1px;
+    color: rgb(122, 120, 120);
+  }
+
+.user-profile-card a {
+    text-decoration: none;
+    color: blue; 
+  }
+  .card-footer {
+    align-items: center;
+    margin-left: 1px;
+    display: flex;
+    flex: 0.2 1 0%;
+    flex-direction: row;
+    font-family: "Kumbh Sans", sans-serif;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 40px;
+
+  }
+  
+  .footer-item {
+    
+    display: inline-block;
+    margin: 0 0px; 
+    color: black; 
+    text-decoration: none;
+    font-size: 14px; 
+    margin-left: 10%;
+    position: relative; 
+  }
+  
+ 
+  .footer-item::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: rgb(122, 120, 120); 
+    top: 0;
+    left: calc(120% + 5px);
+    left: 140%;
+  }
+  
+  
+  .item-name {
+    margin-left: 55%;
+    
+  }
+  
+  
+  .footer-items {
+    display: inline-block;
+    margin: 0 0px;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 190px;
+    margin-top: 1px;
+    margin-left: 10%;
+
+  }
+  .folo-btn{
+    display: inline-block;
+    background-image: linear-gradient(to left, red,blue);
+    color: #fff; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px;
+    font-size: 16px; 
+    cursor: pointer; 
+    text-decoration: none;
+    margin-right: 50px;
+  }
+
+  .folo-btn1{
+    display: inline-block;
+    background-image: linear-gradient(to left, red,blue);
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; 
+    cursor: pointer; 
+    text-decoration: none;
+  }
+
+  .folo-btn:hover{
+    background-image: linear-gradient(rgb(252, 73, 73),lightblue); 
+  }
+
+  .folo-btn1:hover{
+    background-image: linear-gradient(rgb(252, 73, 73),lightblue); 
+
+  }
+  
